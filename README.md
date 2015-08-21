@@ -89,7 +89,7 @@ to use it. Additionally introducing new commands if necessary.
 
 One of those fixed templates is the [Thesis Template by Sunil
 Patel](http://www.sunilpatel.co.uk/thesis-template/) which i
-think we all are familiar with to some extend. .From the FAQ
+think we all are familiar with to some extend. From the FAQ
 section of the web site 
 
 > Why do I need to use this LaTeX Thesis Template?
@@ -103,6 +103,11 @@ about the formatting and layout.
 
 >Of course, you can do all of this yourself manually, but why
 re-invent the wheel?
+
+
+That very template made it to [LaTeX
+Templates](http://www.latextemplates.com/template/masters-doctoral-thesis)
+as well and is the most used of the three templates available.
 
 Non-fixed Output
 --------------
@@ -193,3 +198,7 @@ guys from [ShareLaTeX](https://www.sharelatex.com/),
 Templates](http://www.latextemplates.com/) on board willing to
 make improvements. Those improvements will (hopefully) improve
 the overall image, accessibility and user experience.
+Thousands of people are using the online compilers and LaTeX
+Templates gets about 5000 visitors each day as well. Looking at
+those digits there really is a quite high interest from the user
+side.
