@@ -21,7 +21,7 @@ beginning.
 As we can't get in touch with every maintainer of a web-page
 providing template-like stuff, does that mean the helpers should
 team up and start provide templates themselves? Team-maintained
-and up to date? Sean Allread started a [github repository called
+and up to date? Sean Allred started a [github repository called
 *texample*](https://github.com/vermiculus/texample) a while back
 with the idea of providing templates, or rather examples.
 
