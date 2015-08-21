@@ -9,7 +9,7 @@ of stuff is going on.
 There are many templates around, many different templates for
 different use cases. The word template can't even be pinned to
 one special meaning, there are lots of instances that are called
-*a template*.  
+*a template*.
 
 
 Everyday, LaTeX helpers all over the world get questions based on
