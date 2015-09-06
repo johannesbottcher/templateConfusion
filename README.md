@@ -190,15 +190,17 @@ we can work together to establish some common standards of *best
 practice* (What does that even mean?) to improve the initial
 state of future templates and improve the current situation. 
 
-What do you think? It this  worth the effort and something cane
+What do you think? It this  worth the effort and something can
 be done? Can the questions above be answered? Are there more
-questions concerning templates? The good news is, we have the
+questions concerning templates? What is a template? 
+
+The good news is, we have the
 guys from [ShareLaTeX](https://www.sharelatex.com/),
 [Overleaf](https://www.overleaf.com/) and [LaTeX
 Templates](http://www.latextemplates.com/) on board willing to
 make improvements. Those improvements will (hopefully) improve
-the overall image, accessibility and user experience.
+the overall image, accessibility and user experience of LaTeX.
 Thousands of people are using the online compilers and LaTeX
 Templates gets about 5000 visitors each day as well. Looking at
 those digits there really is a quite high interest from the user
-side.
+side to use use LaTeX for their typesetting needs.
