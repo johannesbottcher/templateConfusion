@@ -121,7 +121,7 @@ package `color`, 4 different packages that set the font of the
 document, and finally package `xcolor` with some option. To top
 it off, several independent blocks of redefining internal
 commands using the `\makeatletter`/`\makeatother` combo
-Actually, that was made up, but that doesn't mean there is a
+Actually, that was made up, but that doesn't mean there is a no
 template out there doing this. 
 
 Merely a small fraction here would be actually useful for a
