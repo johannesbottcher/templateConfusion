@@ -192,7 +192,9 @@ state of future templates and improve the current situation.
 
 What do you think? It this  worth the effort and something can
 be done? Can the questions above be answered? Are there more
-questions concerning templates? What is a template? 
+questions concerning templates? What is a template? Can a
+template have a license, should a template have a license? What
+effect does a license have to the user? 
 
 The good news is, we have the
 guys from [ShareLaTeX](https://www.sharelatex.com/),
@@ -203,4 +205,4 @@ the overall image, accessibility and user experience of LaTeX.
 Thousands of people are using the online compilers and LaTeX
 Templates gets about 5000 visitors each day as well. Looking at
 those digits there really is a quite high interest from the user
-side to use use LaTeX for their typesetting needs.
+side to use LaTeX for their typesetting needs.
