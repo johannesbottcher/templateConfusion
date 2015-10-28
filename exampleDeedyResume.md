@@ -1,21 +1,23 @@
 Deedy resume/cv
 
 I took the time to search for the quite popular (measured by the
-number of support question floating around)
+number of support questions floating around)
 deedy-resume-template. The git repo lists two versions alone, one
 to use Mac-fonts, one with free fonts. Overleaf and
 Latextemplates also have a version. Sharelatex has two versions,
 one with the openfonts as found on the git-repo, one with *other*
 open free fonts to substitute the Mac fonts (namely TeX Gyre
-Heros and Lato),
+Heros and Lato). Overleaf, also has another version of the
+template, which does have inly one column instead of two.
 
 ```
-Locale        , template Version , class date , note           , url
-git-repo      , v.1.2            , 2014-09-16 , open and mac   , https://github.com/deedydas/Deedy-Resume
-overleaf      , v.1.1            , 2014-04-30 , openfonts      , https://www.overleaf.com/latex/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18
-sharelatex    , v.1.1            , 2014-04-30 , openfonts      , https://www.sharelatex.com/templates/5367ac4380bde19571bf9c21
-sharelatexMod , v.1.0            , 2014-04-30 , TeX Gyre fonts , https://www.sharelatex.com/templates/5363d55e3933f46a7b906f9a
-vel           , v.1.0            , 2014-04-30 , macfonts       , http://www.latextemplates.com/template/deedy-resume-cv
+Locale         , template Version , class date , note           , url
+git-repo       , v.1.2            , 2014-09-16 , open and mac   , https://github.com/deedydas/Deedy-Resume
+overleaf       , v.1.1            , 2014-04-30 , openfonts      , https://www.overleaf.com/latex/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18
+overleafOneCol , v.1.1            , 2014-04-30 , openfonts      , https://www.overleaf.com/latex/templates/single-column-deedy-cv-slash-resume-template/zwyxmkbrfgtz#.VjEY8qeJRz0
+sharelatex     , v.1.1            , 2014-04-30 , openfonts      , https://www.sharelatex.com/templates/5367ac4380bde19571bf9c21
+sharelatexMod  , v.1.0            , 2014-04-30 , TeX Gyre fonts , https://www.sharelatex.com/templates/5363d55e3933f46a7b906f9a
+vel            , v.1.0            , 2014-04-30 , macfonts       , http://www.latextemplates.com/template/deedy-resume-cv
 ```
 
 
