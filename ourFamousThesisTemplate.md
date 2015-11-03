@@ -126,12 +126,25 @@ clearly stated.
 That were some of the bits i found *interesting*. 
 
 The template is quite famous, it was provided in the original
-form on latex templates. In the meantime that one was renamed and
-cleaned up a little bit. Overleaf is using this moified version.
-Sharelatex has the template in its original form (minor changes,
-but of course no indication with respect to a date change or
-author comments).
+form on [latex
+templates](http://www.latextemplates.com/template/masters-doctoral-thesis).
+In the meantime that one was renamed and cleaned up a little bit.
+[Overleaf](https://www.overleaf.com/latex/templates/template-for-a-masters-slash-doctoral-thesis/mkzrzktcbzfl#.ViPmIqf35z0)
+is using this modified version.  Sharelatex has the template two
+times in its original form (minor changes, but of course no
+indication with respect to a date change or author comments).
+Those are
+[graduate-thesis](https://www.sharelatex.com/templates/thesis/graduate-thesis)
+and [Easy
+Thesis](https://de.sharelatex.com/templates/52fdfd8234a287a85245b4c6).
+There might be more versions providedd by the template providers,
+i didn't look too closely.
 
 
 What do we have now? A few hundred different files called
 `Thesis.cls` Isn't that nice? 
+
+The renaming of the class file on latex templates is visible on
+every day support, since quite a few questions popped up with the
+new name. Looking at github, a few users have chosen that
+template as well.
