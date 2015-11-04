@@ -153,7 +153,7 @@ What do we have now? A few hundred different files called
 Renaming of files is one issue, but let's take a look at the
 headers at the different stages of evolution: 
 
-#`ecsthesis.cls`:
+###`ecsthesis.cls`:
 
 ```syntax=latex
 %%
@@ -170,7 +170,7 @@ headers at the different stages of evolution:
 %% 
 ```
 
-#`Thesis.cls` from Sunil:
+###`Thesis.cls` from Sunil:
 
 
 ```syntax=latex
@@ -181,7 +181,7 @@ headers at the different stages of evolution:
 %% Created by Steve R. Gunn, modified by Sunil Patel: www.sunilpatel.co.uk
 ```
 
-#`Thesis.tex` (the main file the user sees):
+###`Thesis.tex` (the main file the user sees):
 
 ```syntax=latex
 %% ----------------------------------------------------------------
@@ -191,7 +191,7 @@ headers at the different stages of evolution:
 
 I have to admit, that wasn't very exciting.
 
-#`Thesis.cls` from LaTeX templates (obsolete):
+###`Thesis.cls` from LaTeX templates (obsolete):
 
 ```syntax=latex
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -221,7 +221,7 @@ I have to admit, that wasn't very exciting.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ```
 
-#`main.tex`
+###`main.tex`
 
 ```syntax=latex
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
