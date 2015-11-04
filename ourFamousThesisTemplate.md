@@ -123,10 +123,10 @@ clearly stated.
 
 ----------
 
-That were some of the bits i found *interesting*. 
+Those were some of the bits i found *interesting*. 
 
 The template is quite famous, it was provided in the original
-form on [latex
+form on [LaTeX
 templates](http://www.latextemplates.com/template/masters-doctoral-thesis).
 In the meantime that one was renamed and cleaned up a little bit.
 [Overleaf](https://www.overleaf.com/latex/templates/template-for-a-masters-slash-doctoral-thesis/mkzrzktcbzfl#.ViPmIqf35z0)
@@ -140,11 +140,162 @@ Thesis](https://de.sharelatex.com/templates/52fdfd8234a287a85245b4c6).
 There might be more versions providedd by the template providers,
 i didn't look too closely.
 
+The renaming of the class file on latex templates is visible on
+every day support, since quite a few questions popped up with the
+new name. Looking at github, a few users have chosen that
+template as well. People are searching for thesis templates and
+find that one, either in the original form or modified as
+`MastersDoctoralThesis.cls`
 
 What do we have now? A few hundred different files called
 `Thesis.cls` Isn't that nice? 
 
-The renaming of the class file on latex templates is visible on
-every day support, since quite a few questions popped up with the
-new name. Looking at github, a few users have chosen that
-template as well.
+Renaming of files is one issue, but let's take a look at the
+headers at the different stages of evolution: 
+
+#`ecsthesis.cls`:
+
+```syntax=latex
+%%
+%% This is file `ecsthesis.cls',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% ecsdocs.dtx  (with options: `thesis')
+%% 
+%% Copyright (C) 2001 by Steve R. Gunn
+%% 
+%% This file is part of the ECSDocs class distribution
+%% 
+```
+
+#`Thesis.cls` from Sunil:
+
+
+```syntax=latex
+%%
+%% This is file `Thesis.cls', based on 'ECSthesis.cls', by Steve R. Gunn
+%% generated with the docstrip utility.
+%%
+%% Created by Steve R. Gunn, modified by Sunil Patel: www.sunilpatel.co.uk
+```
+
+#`Thesis.tex` (the main file the user sees):
+
+```syntax=latex
+%% ----------------------------------------------------------------
+%% Thesis.tex -- MAIN FILE (the one that you compile with LaTeX)
+%% ---------------------------------------------------------------- 
+```
+
+I have to admit, that wasn't very exciting.
+
+#`Thesis.cls` from LaTeX templates (obsolete):
+
+```syntax=latex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thesis LaTeX Template - THESIS CLASS FILE
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% This class file defines the structure and design of the template. 
+%
+% There is one part of this file that needs to be filled out - the variables
+% dictating the document particulars such as the author name, university
+% name, etc. You will find these in the commented "DOCUMENT VARIABLES"
+% section below.
+%
+% The other two easily-editable sections are the margin sizes and abstract.
+% These have both been commented for easy editing. Advanced LaTeX
+% users will have no trouble editing the rest of the document to their liking.
+%
+% Original header:
+%% This is file `Thesis.cls', based on 'ECSthesis.cls', by Steve R. Gunn
+%% generated with the docstrip utility.
+%%
+%% Created by Steve R. Gunn, modified by Sunil Patel: www.sunilpatel.co.uk
+%% Further modified by www.latextemplates.com
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
+
+#`main.tex`
+
+```syntax=latex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 1.43 (17/5/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Steven Gunn 
+% http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/
+% and
+% Sunil Patel
+% http://www.sunilpatel.co.uk/thesis-template/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Note:
+% Make sure to edit document variables in the Thesis.cls file
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
+
+The updated template now says:
+
+
+```syntax=latex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% Class File
+% Version 1.1 (2/9/15)
+%
+% This class has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Version 2.0 major modifications by:
+% Vel (vel@latextemplates.com)
+% Johannes Böttcher
+%
+% Note:
+% This class file defines the structure and design of the template file (main.tex).
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
+
+The above is to be found in the class file, the follwoing in
+main.tex:
+
+
+```syntax=latex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 2.1 (2/9/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Version 2.0 major modifications by:
+% Vel (vel@latextemplates.com)
+%
+% Original authors:
+% Steven Gunn  (http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/)
+% Sunil Patel (http://www.sunilpatel.co.uk/thesis-template/)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
+
