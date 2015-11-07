@@ -194,7 +194,7 @@ LaTeX moves on every day. Does code have a *best before end* life
 span? What happens to unmaintained code? How can a community
 assure that code is up to date?
 
-Who supports a template? Who mountains it?
+Who supports a template? Who maintains it?
 -------------------------------------------
 
 Overleaf and ShareLaTeX have a little comments section, where
