@@ -15,8 +15,12 @@ one special meaning, there are lots of instances that are called
 Everyday, LaTeX helpers all over the world get questions based on
 a bad template. Bad in this case means unmaintained, no license
 statement, obsolete packages and practices, in parts even
-completely wrong input that leads to warnings from the very
-beginning. 
+completely wrong input that leads to warnings or errors from the
+very beginning. Most of the templates have something in common:
+they want somebody else to save some time, time that they
+invested in the past while googling for problems they had
+themselves. Bad code and bad practices are distributed that way,
+from one generation to the next.
 
 As we can't get in touch with every maintainer of a web-page
 providing template-like stuff, does that mean the helpers should
@@ -37,7 +41,7 @@ Papeeria](http://www.mychemistry.eu/2015/07/the-template-story/#comment-870)
 said "Many templates are quick and dirty hacks, but very often
 they don’t need to be polished, because they are just fine for
 their job." If i understand him correctly, he is talking about
-documentclasses there.
+document classes there.
 
 [Vel from LaTeX templates]() on the other hands states his
 motives for setting up the web page: Getting new users started by
@@ -56,6 +60,7 @@ is the following:
  LaTeX template. Maybe what we are talking about are not so much
  templates but examples for LaTeX usage…
 
+
 It seems, there are two general categories of templates.
 
 
@@ -66,14 +71,15 @@ LaTeX classes and packages have a special license, most important
 to keep names unique. There are multiple university thesis
 packages on CTAN, each setting up a titlepage (hopefully using
 variables), setting the page layout in general, i.e.  margins,
-fonts, chapter/section headings. The layout is fixed. 
+fonts, chapter/section headings. The layout is fixed and hidden
+to keep the end-user from changing anything.
 
 
 `classicthesis` sets very specific design ideas. The author
 explains those ideas, what they are based on and asks the user
 not to change the margins. In my experience, changing the margins
 is quite the first thing a `classicthesis`-user is changing. So
-...  no fixed output.  `classicthesis` (the package) is licensed (good thing)
+...  no fixed output at all.  `classicthesis` (the package) is licensed (good thing)
 and every change to the original code has to be done by
 redefining or patching, which i think is quite scary and
 outputting for a new user. I think my point here is: Actually
@@ -84,7 +90,7 @@ One more thing to consider are package incompatibilities. If some
 package like `subfigure` or `hyperref` are loaded early in a
 class file, trouble is to be expected. 
 
-Those fixed templates usually come with own documentation and how
+Those fixed templates usually come with own documentation on how
 to use it. Additionally introducing new commands if necessary.
 
 One of those fixed templates is the [Thesis Template by Sunil
@@ -97,7 +103,7 @@ section of the web site
 >It is not compulsory to use the LaTeX Thesis Template or any
 other LaTeX template, but here is one, ready, tested and
 documented for you to use. It is a template and structured
-framework and written to keep you organised and let you start
+framework and written to keep you organized and let you start
 writing your thesis straight away without spending time worrying
 about the formatting and layout.
 
@@ -107,12 +113,18 @@ re-invent the wheel?
 
 That very template made it to [LaTeX
 Templates](http://www.latextemplates.com/template/masters-doctoral-thesis)
-as well and is the most used of the three templates available.
+as well and is the most used of the three thesis templates
+available. Later, some modifications were made to [our famous
+thesis template](ourFamousThesisTemplate). Somehow, it isn't that
+fixed anymore.
+
+
+
 
 Non-fixed Output
 --------------
 
-No design decisions are hidden in a class or package file, maybe
+No layout decisions are hidden in a class or package file, maybe
 put in a file called `config.tex` or `structure.tex`. The user
 sees the whole bunch of stuff, comments behind. There might be
 packages loaded to suit almost all users. Three for table stuff,
@@ -121,7 +133,7 @@ package `color`, 4 different packages that set the font of the
 document, and finally package `xcolor` with some option. To top
 it off, several independent blocks of redefining internal
 commands using the `\makeatletter`/`\makeatother` combo
-Actually, that was made up, but that doesn't mean there is a no
+Actually, that was made up, but that doesn't mean there is no
 template out there doing this. 
 
 Merely a small fraction here would be actually useful for a
@@ -175,12 +187,28 @@ line before starting to work?
 
 
 Best before end?
----------------
+----------------
 
 
 LaTeX moves on every day. Does code have a *best before end* life
 span? What happens to unmaintained code? How can a community
 assure that code is up to date?
+
+Who supports a template? Who mountains it?
+-------------------------------------------
+
+Overleaf and ShareLaTeX have a little comments section, where
+some support is done. Many users drop in to
+[TeX.Stackexchange](http://tex.stackexchange.com/). The support
+for LaTeX-templates is done in collaboration with
+[LaTeX-community](http://latex-community.org/forum/), though not
+everybody finds the right button and many users seek help at
+TeX.SX. Some *templates* do development and support on gitHub,
+some may know
+[cleanthesis](https://github.com/derric/cleanthesis/). A few
+thoughts about maintainership and support (as long with license
+issues) can be found in [the Deedy Das CV template
+example](exampleDeedyResume.md).
 
 
 -----
@@ -196,13 +224,14 @@ questions concerning templates? What is a template? Can a
 template have a license, should a template have a license? What
 effect does a license have to the user? 
 
-The good news is, we have the
-guys from [ShareLaTeX](https://www.sharelatex.com/),
+The good news is, we have the guys from
+[ShareLaTeX](https://www.sharelatex.com/),
 [Overleaf](https://www.overleaf.com/) and [LaTeX
 Templates](http://www.latextemplates.com/) on board willing to
-make improvements. Those improvements will (hopefully) improve
-the overall image, accessibility and user experience of LaTeX.
-Thousands of people are using the online compilers and LaTeX
-Templates gets about 5000 visitors each day as well. Looking at
-those digits there really is a quite high interest from the user
-side to use LaTeX for their typesetting needs.
+make at least some improvements. Those improvements will
+(hopefully) improve the overall image, accessibility and user
+experience of LaTeX.  Thousands of people are using the online
+compilers and LaTeX Templates gets about 5000 visitors each day
+as well. Looking at those digits there really is a quite high
+interest from the user side to use LaTeX for their typesetting
+and publication needs.
