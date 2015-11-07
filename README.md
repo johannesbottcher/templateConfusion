@@ -115,7 +115,7 @@ That very template made it to [LaTeX
 Templates](http://www.latextemplates.com/template/masters-doctoral-thesis)
 as well and is the most used of the three thesis templates
 available. Later, some modifications were made to [our famous
-thesis template](ourFamousThesisTemplate). Somehow, it isn't that
+thesis template](ourFamousThesisTemplate.md). Somehow, it isn't that
 fixed anymore.
 
 
@@ -206,7 +206,7 @@ everybody finds the right button and many users seek help at
 TeX.SX. Some *templates* do development and support on gitHub,
 some may know
 [cleanthesis](https://github.com/derric/cleanthesis/). A few
-thoughts about maintainership and support (as long with license
+thoughts about maintainership and support (along with license
 issues) can be found in [the Deedy Das CV template
 example](exampleDeedyResume.md).
 
