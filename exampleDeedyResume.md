@@ -8,7 +8,7 @@ Latextemplates also have a version. Sharelatex has two versions,
 one with the openfonts as found on the git-repo, one with *other*
 open free fonts to substitute the Mac fonts (namely TeX Gyre
 Heros and Lato). Overleaf, also has another version of the
-template, which does have inly one column instead of two.
+template, which does have only one column instead of two.
 
 ```
 Locale         , template Version , class date , note           , url
@@ -39,5 +39,5 @@ shouldn't they have a specific name?
 Any thoughts of the template providers concerning this *issue*? Is this
 an issue after all? What do other helpers think?
 
-PS: The git repo has 168 forks.
+PS: The git repo has 168 forks. Update 2016-10-09: 278 forks
 
